@@ -3,13 +3,16 @@ name: yjing blog
 email: 18569095589@163.com
 author: Yang Jing
 url: http://www.yjingneverforget.cn/
-#resume_site: http://www.hifreud.com/Resume.io/
+resume_site: http://www.yjingneverforget.cn/Resume/
 github: https://github.com/YJGit/
 baseurl: ""
-description: Actually, less is more!
-meta_description: 杨景;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
-motto: It's our wits that make us men.
-banner: 学而不思则罔，思而不学则殆。
+description: Is life always this hard,or is it just when you are a kid?
+meta_description: 杨景;个人博客;吾生也有涯，而知也无涯
+motto: God helps those who help themselves.
+banner: 不进则退。
+
+#plugins
+plugins: [jekyll-paginate]
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
@@ -18,10 +21,9 @@ paginate: 10
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
 github_username: YJGit
-highlighter: Pygments
+highlighter: rouge
 
 # Build settings
 markdown: kramdown
 
 baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
-
