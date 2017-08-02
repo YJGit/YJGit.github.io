@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Ubuntu nvm搭建nodejs环境！
+title:  Ubuntu nvm搭建nodejs环境
 date:   2017-08-01 23:36:00 +0800
 categories: 环境搭建
 tag: ubuntu
@@ -8,6 +8,7 @@ tag: ubuntu
 
 * content
 {:toc}
+
 
 ## 前言
 
