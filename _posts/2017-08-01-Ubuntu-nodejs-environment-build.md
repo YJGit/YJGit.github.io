@@ -51,3 +51,15 @@ node是一个很受欢迎的语言，ubuntu也是linux下特别受欢迎的操�
     ```sudo ln -s $nodepath  /usr/bin/nodejs```
 
 8. 输入```npm -v```，```node -v ```，```nvm -v ```分别查看所装软件版本，至此ubuntu下node环境搭建完毕
+
+## 后记
+
+若是一次搭建不成功，则可以断掉链接再按此步骤重新来一遍，断掉链接方法如下：  
+&nbsp;&nbsp;&nbsp;&nbsp;
+```rm -rf   symbolic_name```  
+比如按此教程，则为如下两句：  
+&nbsp;&nbsp;&nbsp;&nbsp;
+```rm -rf   /usr/bin/node```  
+&nbsp;&nbsp;&nbsp;&nbsp;
+```rm -rf   /usr/bin/nodejs```  
+我后面在另外一台pc上又搭了一次，node是没问题，但是npm找不到了，然后重来了一次，就好了，估计是在某一步骤出了些差错。
