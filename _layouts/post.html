@@ -27,3 +27,18 @@ layout: default
     </div>
   </div>
 </div>
+
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'YJGit',
+    repo: 'http://yjgit.github.io/',
+    oauth: {
+        client_id: '76b82aaf4318ade9dd35',
+        client_secret: '731f413b25225d2e652dd63858cbbb9b9cac5ed8',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
