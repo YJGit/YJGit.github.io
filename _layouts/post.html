@@ -24,6 +24,21 @@ layout: default
             </article>
         </div>
       </div>
+	  
+	  <div id = "gitalk-container"></div>
+	  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+	  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+	  <script>
+		var gitalk = new Gitalk({
+		  clientID: '2926933648a2c0c81bea',
+		  clientSecret: '04259df7db8d9998af165b53b5a65fd29598efbc',
+		  repo: 'https://github.com/YJGit/YJGit.github.io',
+		  owner: 'YJGit'
+		})
+
+		gitalk.render('gitalk-container')
+	  </script>
+
     </div>
   </div>
 </div>
