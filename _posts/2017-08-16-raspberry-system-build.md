@@ -46,4 +46,6 @@ tag: Raspberry pi
 由于初次碰到，走了许多弯路，不懂为什么会有很多空间剩余，而且windows只识别了引导部分的SD卡大小，所以在windows下使用了一个叫DiskGenius的工具，不断格式化和分区进行摸索，最终达到了利用fdisk一样的效果(本人SD卡为32G)：  
 ![](http://ouebtut1h.bkt.clouddn.com/df-h-.jpg)  
 但是我还是推荐树莓派下使用fdisk工具的做法。  
-2. Ubuntu Mate系统默认不打开SSH服务，所以得自己手动设置一下。参见[博文](http://yjgit.github.io/2017/08/18/raspberry-ssh-open/)。
+当然最简单直白的方法是直接在树莓派下运行sudo raspi-config，然后选择里头的Expand FileSystem再重启即可。不同的系统这个顺序还不太一样，有可能藏在Advanced Options里头等等。  
+2. Ubuntu Mate系统默认不打开SSH服务，所以得自己手动设置一下。参见[博文](http://yjgit.github.io/2017/08/18/raspberry-ssh-open/)。  
+3. 可能树莓派系统时区和时间不对，确保树莓派连入网络，打开终端输入```sudo dpkg-reconfigure tzdata```，即可进行更改。  
